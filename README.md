@@ -68,6 +68,8 @@ sudo nft list ruleset - узнать работает ли nftables правил
 
 systemctl status zapret_discord_youtube.service - проверить работу сервиса
 
+sudo firewall-cmd --list-ports (какие порты открыты в файрволе)
+
 https://hyperion-cs.github.io/dpi-checkers/ru/tcp-16-20/ - проверка определенных серверов (но сильно может зависеть от провайдера и настроек днс и файрвола не советую лучше попробовать на твиче ютубе дискорде и затем в игре)
 
 

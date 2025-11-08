@@ -37,7 +37,7 @@ updated fork for linux86_64 of https://github.com/Sergeydigl3/zapret-discord-you
 1) git clone https://github.com/triplesixdegrees/zapret-linux86_64.git
 2) cd zapret-linux86_64
 4) sudo bash main_script.sh ( если не работает попробуйте выдать права на запуск sudo chmod +x ./main_script.sh )
-5) sudo chmod +x rename_bat.sh
+5) sudo chmod +x rename_bat.sh ( используйте его после обновления zapret-latest папки чтобы не ломались названия ./rename_bat.sh )
 6) Вас спросят надо ли обновить zapret-latest папку и nfwqs файл если их нету в папке(они не идут с гитом) то нажмите Y
 7) при cp: cannot create regular file '/home/YOUR_NAME/zapret-linux86_64/nfqws': Permission denied
 Ошибка: Не удалось скопировать nfqws
